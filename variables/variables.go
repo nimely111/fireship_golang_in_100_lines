@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // Declare a single variable
 
 var a int
@@ -14,9 +12,9 @@ var (
 	d string
 )
 
-func main() {
-	a = 42
-	b, c = true, 3.14
-	d = "Hello"
-	fmt.Println("a:", a, " b:", b, " c:", c, " d:", d)
-}
+// func main() {
+// 	a = 42
+// 	b, c = true, 3.14
+// 	d = "Hello"
+// 	fmt.Println("a:", a, " b:", b, " c:", c, " d:", d)
+// }
