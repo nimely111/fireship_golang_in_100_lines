@@ -13,6 +13,7 @@ func main() {
 	// slices (uses array under the hood)
 	var scores = []int{100, 50, 60}
 	scores[2] = 25
+	scores = append(scores, 45)
 	fmt.Println(scores, len(scores))
 
 }
