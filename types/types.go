@@ -15,6 +15,6 @@ func main() {
 	x, y := true, false  // bool
 	z := "Go is awesome" // string
 
-	fmt.Printf("user-specified types: %T %T %T %T \n", a, b, c, d)
-	fmt.Printf("default types: %T %T %T %T %T", n, pi, x, y, z)
+	fmt.Printf("user-specified types:\n %T %T %T %T \n", a, b, c, d)
+	fmt.Printf("default types:\n %T %T %T %T %T", n, pi, x, y, z)
 }
