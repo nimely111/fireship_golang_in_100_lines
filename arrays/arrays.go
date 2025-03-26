@@ -19,6 +19,7 @@ func main() {
 	// slice ranges
 	rangeOne := names[1:3]
 	rangeTwo := names[2:]
-	fmt.Println(rangeOne, rangeTwo)
+	rangeThree := names[:3]
+	fmt.Println(rangeOne, rangeTwo, rangeThree)
 
 }
