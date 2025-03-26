@@ -9,4 +9,9 @@ func main() {
 	names[1] = "Vick"
 	fmt.Println(names, len(names))
 	fmt.Println(ages, len(ages))
+
+	// slices (uses array under the hood)
+	var scores = []int{100, 50, 60}
+	fmt.Println(scores, len(scores))
+
 }
