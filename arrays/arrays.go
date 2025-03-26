@@ -20,6 +20,7 @@ func main() {
 	rangeOne := names[1:3]
 	rangeTwo := names[2:]
 	rangeThree := names[:3]
+	rangeOne = append(rangeOne, "Jestina")
 	fmt.Println(rangeOne, rangeTwo, rangeThree)
 
 }
