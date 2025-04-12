@@ -43,7 +43,7 @@ func main() {
 	/* Define an array containing programming languages */
 	languages := [9]string{
 		"C", "Lisp", "C++", "Java", "Python",
-		"JavaScript", "Ruby", "Go", "Rust", // Must include the trailing comma
+		"JavaScript", "Ruby", "Go", "Rust", "PHP", // Must include the trailing comma
 	}
 
 	/* Define slices */
